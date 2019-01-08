@@ -1,0 +1,41 @@
+[Postgresql]
+
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | \
+  sudo apt-key add -
+sudo apt-get update
+
+sudo apt-get install postgresql-9.6
+
+apt-get install postgresql pgadmin3
+
+sudo -u postgres psql
+alter user postgres with encrypted password '1234';
+
+
+[Apache]
+
+sudo apt-get install apache2
+
+[PHP]
+sudo apt-get install php7.1 libapache2-mod-php7.1
+
+[Ligando php e o postgresql]
+
+sudo apt-get install php libapache2-mod-php php-mcrypt php-pgsql
+ou
+sudo apt-get install php7.1 libapache2-mod-php php7.1-mcrypt php-pgsql
+ou/e
+sudo apt-get install php7.1-pgsql
+
+sudo a2enmod rewrite
+
+service apache2 restart
+
+
+[permissao para a pasta de arquivos do site]
+sudo chmod 777 -R /var/www
+
+fazer backup do servidor com do bd em um bd com o nome de dgrunners
+
+
+

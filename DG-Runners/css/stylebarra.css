@@ -1,0 +1,132 @@
+#login-dp {
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow: hidden;
+    background-color: rgba(28, 127, 60, .8);
+}
+
+#login-dp .help-block {
+    font-size: 12px
+}
+
+#login-dp .bottom {
+    background-color: rgba(255, 255, 255, .8);
+    border-top: 1px solid #ddd;
+    clear: both;
+    padding: 14px;
+}
+
+#login-dp .social-buttons {
+    margin: 12px 0
+}
+
+#login-dp .social-buttons a {
+    width: 49%;
+}
+
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+
+.btn-fb {
+    color: #fff;
+    background-color: #3b5998;
+}
+
+.btn-fb:hover {
+    color: #fff;
+    background-color: #496ebc
+}
+
+.btn-tw {
+    color: #fff;
+    background-color: #55acee;
+}
+
+.btn-tw:hover {
+    color: #fff;
+    background-color: #59b5fa;
+}
+
+@media(max-width:768px) {
+    #login-dp {
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom {
+        background-color: inherit;
+        border-top: 0 none;
+    }
+}
+
+
+.navbar-inverse { 
+    background-color: #0E401E; 
+    border-color: #0E401E; 
+    border-radius: 6px;
+}
+
+.login-box a:hover
+{
+    color: #39dc79;
+}
+
+.active a{
+    background: #1B7F3C !important;
+    border-radius: 6px;
+    margin-left: 0.3em;
+}
+
+li.dropdown.open>a.dropdown-toggle{
+    background: #1B7F3C !important;
+    border-radius: 6px;
+}
+li.dropdown:hover{
+    background: #1B7F3C !important;
+    border-radius: 6px;
+}
+
+val
+{
+
+}
+form.navbar-form.navbar-left input.form-control
+{
+    border-radius: 6px;
+    width:300px;
+    text-align: center;
+}
+
+form.navbar-form.navbar-left button.btn.btn-default
+{
+    border-radius: 6px;
+    
+}
+
+
+form.navbar-form.navbar-left
+{
+    padding: 0px 0px;
+}
+
+
+
+.navbar-inverse .navbar-nav > li > a {
+    color: rgb(207, 207, 207);
+}
+
+.navbar-inverse .navbar-brand {
+    color:rgb(207, 207, 207);
+}
+
+.nav.navbar-nav.navbar-right>li:hover
+{
+    
+    background: #1B7F3C;
+    border-radius: 6px;
+}
+
+
+
+
+
